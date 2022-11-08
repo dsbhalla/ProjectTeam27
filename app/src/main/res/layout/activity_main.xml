@@ -67,7 +67,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Content Provider Activity">
+            android:text="Content Provider Activity"
+            android:onClick="toDatabase">
         </Button>
     </LinearLayout>
 
