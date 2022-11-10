@@ -41,11 +41,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center">
-        <Button
+        <Button android:id="@+id/Broadcast_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Broadcast Activity">
+            android:text="Broadcast Activity"
+            android:onClick="sendCustomBroadCastIntent">
         </Button>
         ></LinearLayout>
     <LinearLayout
